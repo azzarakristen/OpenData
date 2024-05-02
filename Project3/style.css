@@ -1,0 +1,121 @@
+html {
+    background-color: #fffcf5
+
+}
+
+.title-page, .table-header{
+    width: 100%;
+    /* max-width: 1000px; */
+    max-width: calc(100% - 200px);
+    margin: 0 auto;
+    text-align: center;
+    
+}
+.table-header {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.title-page{
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+
+.body-text{
+    margin-top: 25px;
+    max-width: calc(100% - 400px);
+    margin: 25px auto 0 auto;
+    padding-bottom: 50px;
+}
+
+p{
+    max-width: 500px;
+    font-family: "miller-text", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+h1{
+    font-size: 110px;
+    margin: 0;
+    font-family: "dynapuff-variable", sans-serif;
+    font-variation-settings: "wdth" 100, "wght" 400;
+    
+}
+
+h2{
+    font-size: 45px;
+    margin: 0 0 15px 0;
+    font-family: "miller-text", serif;
+    font-weight: 400;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 18px;
+    font-family: "miller-text", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+img{
+    max-height: 350px;
+    width: 100%;
+    border-radius: 30px;
+    object-fit: cover;
+}
+
+
+
+.gallery-item img {
+    height: 350px;
+}
+
+.table-header img{
+    height: 200px;
+}
+
+.scroll-section{
+    margin-top: 25px;
+    padding-bottom: 50px;
+
+}
+.scroll-wrapper{
+    overflow-x: scroll;
+}
+.scroll-inner-wrapper{
+    display: flex;
+    padding-bottom: 25px;
+}
+.gallery-item{
+    min-width: 500px;
+    margin: 0 25px;
+}
+.gallery-item > h3{
+    text-align: center;
+}
+
+.borough-filters div:hover{
+    text-transform: uppercase;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 700;
+}
+
+
+.borough-filters, .park-data{
+    font-size: 24px;
+}
+.table-body{
+    display: flex;
+    justify-content: space-between;
+    max-width: calc(100% - 400px);
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 55px;
+    padding-bottom: 100px;
+    
+}
