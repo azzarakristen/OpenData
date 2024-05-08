@@ -1,66 +1,93 @@
+<!DOCTYPE html>
 <html>
   <head>
     <title>Urban Forestry</title>
     <link rel="icon" type="image/x-icon" href="treeicon.png" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="https://use.typekit.net/fcp1wtc.css">
+    <script src="script.js"></script>
   </head>
   <section class="data-table">
     <div class="title-page">
+        
         <h1>planting trees in nyc</h1>
-        <img src="treesincities1.jpeg" />
+        <div id="image-container">
+          <img class="scrolling-image" src="treesincities1.jpeg" />
+
+        </div>
+        
     </div>
-    <h2>Empty planting locations in nyc</h2>
+    <div class="top-row">
+      <h2>Status of nyc planting locations</h2>
+      <div class="key">
+        <div class="key-item">
+          <img src="emptykey.png">
+          <p>Empty</p>
+        </div>
+        <div class="key-item">
+          <img src="planted.png">
+          <p>Planted</p>
+        </div>
+        <div class="key-item">
+          <img src="retired.png">
+          <p>Retired</p>
+        </div>
+      </div>
+    </div>
     <div class="table-body">
       
-        <div class="borough-filters">
-          <div id="man"> Manhattan </div>
-          <div id="bk"> Brooklyn </div>
-          <div id="qns"> Queens </div>
-          <div id="bx"> The Bronx </div>
-          <div id="stat"> Staten Island </div>
+        <div class="borough-filter">
+          <h3 id="manhattan"> Manhattan </h3>
+          <h3 id="brooklyn"> Brooklyn </h3>
+          <h3 id="queens"> Queens </h3>
+          <h3 id="bronx"> The Bronx </h3>
+          <h3 id="statenisland"> Staten Island </h3>
       </div>
       
         <div class="data-visualization-wrapper">
-          <div class="data-visualization-item" id="manhattan">
+          <div class="data-visualization-item" id="manhattan-vis">
               <img src="manhattan.png" />
           </div>
-          <div class="data-visualization-item" id="brooklyn">
+          <div class="data-visualization-item" id="brooklyn-vis">
             <img src="brooklyn.png" />
          </div>
-        <div class="data-visualization-item" id="queens">
+        <div class="data-visualization-item" id="queens-vis">
           <img src="queens.png" />
         </div>
-        <div class="data-visualization-item" id="bronx">
+        <div class="data-visualization-item" id="bronx-vis">
           <img src="bronx.png" />
         </div>
-        <div class="data-visualization-item" id="statenisland">
+        <div class="data-visualization-item" id="statenisland-vis">
           <img src="statenisland.png" />
+        </div>
+        <div class="data-visualization-item" id="empty-vis">
+          <img src="empty.png" />
         </div>
         </div>
         <div class="specific-data-wrapper">
-          <div class="specific-data-item" id="manhattan-data"> 
-            explanation explanation
+          <div class="specific-data-item" id="explanation"> 
+            <p>Manhattan has <span>14,846</span> empty planting spots. (9.73%)</p>
           </div>
-          <div class="specific-data-item" id="brooklyn-data"> 
-            explanation explanation
+          <div class="specific-data-item" id="explanation"> 
+            <p>Brooklyn has <span>33,969</span> empty planting spots. (12.5%)</p>
           </div>
-          <div class="specific-data-item" id="queens-data"> 
-            explanation explanation
+          <div class="specific-data-item" id="explanation"> 
+            <p>Queens has <span>36,363</span> empty planting spots. (10.4%)</p>
           </div>
-          <div class="specific-data-item" id="bronx-data"> 
-            explanation explanation
+          <div class="specific-data-item" id="explanation"> 
+            <p>The Bronx has <span>15,950</span> empty planting spots. (10.53%)</p>
           </div>
-          <div class="specific-data-item" id="statenisland-data"> 
-            explanation explanation
+          <div class="specific-data-item" id="explanation"> 
+            <p>Staten Island has <span>14,846</span> empty planting spots. (10.06%)</p>
           </div>
+          
 
         </div>
     </div>
 </section>
   <section class="title-page">
     <h1>urban forestry</h1>
-    <h2>The importance of trees in cities</h2>
+
     <img src="plantinglocations5.jpg"/>
     
   </section>
@@ -69,13 +96,18 @@
       <h2>Why plant trees <br>in urban areas?
       </h2>
       <p>
-        Trees are an important part of any environment. They absorb harmful greenhouse gas emissions, which are much higher in highly populated cities. Along with this, they also provide shade and block wind, which can drastically improve urban life quality. Shade prevents solar heat from hitting concrete sidewalks, which in turn helps to lower the urban Heat Island Effect. They can help with noise pollution as well as stormwater mitigation, when their canopies are full. Trees and urban forests also provide habitats for the animals that live in cities, like birds, squirrels, and insects. It is important that both animals and humans have nature around them, especially in a city.
+        Trees are an important part of any environment. Since urban environments are densely populated and emit a higher level of greenhouse gases than the suburbs and rural areas do, trees in cities are crucial and should be valued. Trees absorb these harmful greenhouse gas emissions, while providing shade and blocking the wind. This drastically improves urban life quality. The shade from the canopies prevents solar heat from hitting concrete sidewalks, which in turn helps to counteract the heat that cities typically generate (known as the Heat Island Effect). They can help with noise pollution as well as stormwater mitigation, in seasons when their canopies are full. Urban trees also provide habitats for the countless number of creatures living in cities that are searching for shade and shelter: birds, squirells, insects, etc. It is important that both animals and humans have nature around them, especially in a bustling city.
       </p>
     </div>
     <div class="paragraph-two">
+      <h2>PLANTING IN THE <br>BOROUGHS
+      </h2>
+      <p>All five of NYC's boroughs are utilizing at least 85% of their green space. This is a good thing, but while 10-15% per borough may seem small, there is a shockingly large number of planting spaces that are left empty. In total, New York City has 111,830 planting spaces across the five boroughs that are not being used. Imagine the extra benefit that 100,000 trees could provide to every living thing in the city.</p>
+    </div>
+    <div class="paragraph-three">
       <h2>Suitable Seeds</h2>
       <p>
-        Certain trees thrive best in certain environments. An urban landscape is a harsh environment for a tree, so a good sidewalk tree must be sturdy and resilient. It must be able to adapt to a wide range of soils, tolerate things like drought and shade, and resist pests and diseases. Examples of trees that are suitable for urban planting are American Elm, Ginkgo, Field Maple, American Red Oak, and London Plane.
+        Certain trees thrive best in certain environments. An urban landscape is a harsh environment for a tree, and street trees endure rougher conditions than most. An urban tree has to withstand drought and shade, resist pests and diseases, and adapt to a wide range of soils. In order to do this, an urban tree must be sturdy and resilient. Some common city trees that are suitable for urban planting are the American Elm, Ginkgo, Field Maple, American Red Oak, and London Plane.
       </p>
     </div>
   </section>

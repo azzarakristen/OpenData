@@ -3,6 +3,127 @@ html {
 
 }
 
+.borough-filter h3:hover{
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 700;
+    text-decoration: none;
+    
+}
+
+.borough-filter h3{
+    text-transform: uppercase;
+    line-height: 10px;
+    width: 200px;
+    text-decoration: underline;
+}
+
+
+.borough-filter, .park-data{
+    font-size: 24px;
+}
+.table-body, .data-table h2{
+    display: flex;
+    justify-content: space-between;
+    /* max-width: calc(100% - 400px); */
+    width: 100%;
+    margin: 0 auto;
+    /* margin-top: 55px; */
+    
+}
+.top-row{
+    display: flex;
+    flex-direction: row;
+    max-width: calc(100% - 400px);
+    width: 100%;
+    margin: 0 auto;
+
+}
+.key img{
+    height: 40px;
+    width: auto;
+    border-radius: 0;
+}
+
+.key {
+    display: flex;
+    width: 220px;
+    justify-content: space-between;
+    /* margin: 0 auto; */
+    max-width: calc(100% - 400px);
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.key-item p{
+    text-align: center;
+    font-size: 17px;
+    text-transform: lowercase;
+    font-style: italic;
+    margin-bottom: 0;
+}
+
+.table-body{
+    max-width: calc(100% - 400px);
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.data-table h2{
+    text-align: left;
+    padding-bottom: 30px;
+    /* margin: 0 auto;
+    width: fit-content; */
+    
+}
+
+.data-table {
+    padding-bottom: 50px;
+}
+
+.data-visualization-item img{
+    border-radius: 0;
+    /* opacity: 0; */
+    position: absolute;
+    /* width: 100%; */
+    max-width: 400px;
+    height: auto;
+    max-height: 400px;
+    transform: translateX(-200px)
+}
+
+
+
+
+.specific-data-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+}
+
+.specific-data-item {
+    display: block;
+    
+}
+
+.specific-data-item p{
+    /* font-size: 18px; */
+    margin: 0;
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.specific-data-item span{
+
+    color: #006600;
+    font-weight: 700;
+}
+
+
+
 .title-page, .table-header{
     width: 100%;
     /* max-width: 1000px; */
@@ -17,8 +138,12 @@ html {
 }
 
 .title-page{
-    padding-top: 150px;
+    padding-top: 20px;
     padding-bottom: 50px;
+}
+
+.data-table .title-page{
+    padding-top: 50px;
 }
 
 .body-text{
@@ -29,7 +154,7 @@ html {
 }
 
 p{
-    max-width: 500px;
+    max-width: 600px;
     font-family: "miller-text", serif;
     font-weight: 400;
     font-style: normal;
@@ -96,52 +221,3 @@ img{
 .gallery-item > h3{
     text-align: center;
 }
-
-.borough-filters div:hover{
-    text-transform: uppercase;
-    font-size: 22px;
-    font-style: italic;
-    font-weight: 700;
-}
-
-.borough-filters, .park-data{
-    font-size: 24px;
-}
-.table-body, .data-table h2{
-    display: flex;
-    justify-content: space-between;
-    max-width: calc(100% - 400px);
-    width: 100%;
-    margin: 0 auto;
-    margin-top: 55px;
-    
-}
-
-.data-visualization-item img{
-    border-radius: 0;
-}
-
-.data-visualization-item img{
-    position: absolute;
-    width: 100%;
-    max-width: 500px;
-    height: auto;
-    max-height: 500px;
-}
-
-
-
-/* .data-visualization-wrapper {
-    position: relative;
-}
-
-.data-visualization-item img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    border-radius: 0;
-    width: 100%;
-
-} */
-
-
