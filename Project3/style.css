@@ -157,13 +157,13 @@ body {
 
 .body-text{
     margin-top: 25px;
-    max-width: calc(100% - 300px);
+    max-width: calc(100% - 400px);
     margin: 25px auto 0 auto;
     padding-bottom: 50px;
 }
 
 .body-text h2 {
-    max-width: 50%;
+    max-width: 60%;
 }
 
 p{
