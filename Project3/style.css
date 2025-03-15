@@ -146,6 +146,10 @@ body {
     padding-bottom: 50px;
 }
 
+.title-page h2 {
+    text-align: center
+}
+
 .data-table .title-page{
     padding-top: 50px;
 }
