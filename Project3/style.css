@@ -148,6 +148,7 @@ body {
 }
 
 .title-page h2 {
+    max-width: calc(100% - 500px);
     text-align: center
 }
 
