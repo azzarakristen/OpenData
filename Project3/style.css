@@ -157,7 +157,7 @@ body {
 
 .body-text{
     margin-top: 25px;
-    max-width: calc(100% - 400px);
+    max-width: calc(100% - 300px);
     margin: 25px auto 0 auto;
     padding-bottom: 50px;
 }
