@@ -183,7 +183,8 @@ h2{
     margin: 0 0 15px 0;
     font-family: "miller-text", serif;
     font-weight: 400;
-    font-style: italic;
+    font-style: normal;
+    /* font-style: italic; */
     /* text-transform: uppercase; */
     line-height: 50px;
 }
